@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "partySize": 4,
+  "dailyRewards": 3,
+  "resetHour": 0,
+  "resetMinute": 0,
+  "iron": 4,
+  "gold": 1
+}

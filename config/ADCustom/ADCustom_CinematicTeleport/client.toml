@@ -1,0 +1,20 @@
+#EQUIPPED uses the optional Wings companion's selected type. NONE hides it. Legacy FEATHERED is an alias for EQUIPPED; there is no fallback model.
+#Allowed Values: EQUIPPED, FEATHERED, NONE
+wings = "FEATHERED"
+#Size of the temporary wings.
+# Default: 1.0
+# Range: 0.4 ~ 2.0
+wingScale = 1.0
+#Use a fixed camera behind the character that turns to follow the animation.
+cinematicCamera = true
+# Default: 4.5
+# Range: 1.5 ~ 8.0
+cameraDistance = 4.5
+# Default: 1.0
+# Range: 0.0 ~ 1.0
+particleDensity = 1.0
+#Brightness of the white transition. 1 is white; zero uses a dark fade. The loading cover stays opaque.
+# Default: 1.0
+# Range: 0.0 ~ 1.0
+flashBrightness = 0.65
+hideHud = true

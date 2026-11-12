@@ -1,0 +1,66 @@
+#Authoritative on the server. Client copies do not change multiplayer gameplay.
+[access]
+	#Allow wings for players with no explicit operator override.
+	enabledByDefault = false
+
+[stamina]
+	# Default: 10.0
+	# Range: 0.0 ~ 1000000.0
+	startingStamina = 10.0
+	# Default: 100.0
+	# Range: 1.0 ~ 1000000.0
+	maxStamina = 100.0
+	# Default: 1.0
+	# Range: 0.0 ~ 100000.0
+	drainPerSecond = 1.0
+	#Points regained per second while on the ground with wings closed. No offline regeneration.
+	# Default: 1.0
+	# Range: 0.0 ~ 100000.0
+	regenerationPerSecond = 1.0
+	# Default: 2.0
+	# Range: 0.0 ~ 300.0
+	regenerationDelaySeconds = 2.0
+	# Default: 1.0
+	# Range: 0.0 ~ 1000000.0
+	minimumTakeoffStamina = 1.0
+
+[flight]
+	# Default: 1.0
+	# Range: 0.0 ~ 60.0
+	flyCooldownSeconds = 1.0
+	#Initial upward velocity in blocks per tick.
+	# Default: 0.6
+	# Range: 0.05 ~ 1.5
+	takeoffBoost = 0.6
+	#Vanilla /fly acceleration is 0.05. Sprint uses the multiplier exactly once.
+	# Default: 0.05
+	# Range: 0.01 ~ 0.25
+	flightSpeed = 0.05
+	closeOnLanding = true
+	allowFlightInWater = false
+	#Temporary protection from fall damage after wings retract. Other damage is unaffected.
+	safeLanding = true
+	# Default: 10.0
+	# Range: 0.0 ~ 60.0
+	safeLandingSeconds = 10.0
+
+[sprint]
+	# Default: 1.0
+	# Range: 0.0 ~ 60.0
+	cooldownSeconds = 1.0
+	# Default: 2.0
+	# Range: 1.0 ~ 20.0
+	staminaDrainMultiplier = 2.0
+	# Default: 2.0
+	# Range: 1.0 ~ 4.0
+	speedMultiplier = 2.0
+	# Default: 5.0
+	# Range: 0.0 ~ 1000000.0
+	barrelRollCost = 5.0
+	# Default: 0.6
+	# Range: 0.2 ~ 1.5
+	barrelRollDurationSeconds = 0.6
+	#Initial forward velocity of a barrel roll, in blocks per tick.
+	# Default: 1.2
+	# Range: 0.1 ~ 2.5
+	barrelRollBurstSpeed = 1.2

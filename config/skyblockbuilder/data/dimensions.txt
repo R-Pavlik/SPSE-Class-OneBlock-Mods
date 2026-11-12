@@ -1,0 +1,4 @@
+minecraft:overworld
+minecraft:the_end
+addungeons:instances
+minecraft:the_nether

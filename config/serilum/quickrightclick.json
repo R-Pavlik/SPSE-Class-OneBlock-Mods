@@ -1,0 +1,39 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> Quick Right-Click -> Config",
+	"Enable Quick Right-Click": {
+		"//": "Whether Quick Right-Click is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"enableQuickBeds": {
+		"//": "If right-clicking beds in the air should enable the quick feature.",
+		"value": true
+	},
+	"enableQuickCartographyTables": {
+		"//": "If right-clicking cartography tables in the air should enable the quick feature.",
+		"value": true
+	},
+	"enableQuickCraftingTables": {
+		"//": "If right-clicking crafting tables in the air should enable the quick feature.",
+		"value": true
+	},
+	"enableQuickEnderChests": {
+		"//": "If right-clicking ender chests in the air should enable the quick feature.",
+		"value": true
+	},
+	"enableQuickGrindstones": {
+		"//": "If right-clicking grindstones in the air should enable the quick feature.",
+		"value": true
+	},
+	"enableQuickShulkerBoxes": {
+		"//": "If right-clicking shulker boxes in the air should enable the quick feature.",
+		"value": true
+	},
+	"enableQuickSmithingTables": {
+		"//": "If right-clicking smithing tables in the air should enable the quick feature.",
+		"value": true
+	},
+	"enableQuickStonecutters": {
+		"//": "If right-clicking stonecutters in the air should enable the quick feature.",
+		"value": true
+	}
+}

@@ -1,0 +1,19 @@
+#Switch to ordinary following third-person view while wings are deployed, then restore the previous view.
+thirdPersonFlight = true
+#Roll the camera with a barrel roll. The player model rolls even when this is false.
+rollCamera = false
+showStamina = true
+#Horizontal position relative to screen centre.
+# Default: -107
+# Range: -1000 ~ 1000
+hudOffsetX = 120
+# Default: 36
+# Range: 0 ~ 500
+hudBottomOffset = 8
+# Default: 48
+# Range: 20 ~ 120
+hudHeight = 20
+# Default: 1.0
+# Range: 0.4 ~ 2.0
+wingScale = 1.0
+flightParticles = true

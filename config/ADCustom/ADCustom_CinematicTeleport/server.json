@@ -1,0 +1,15 @@
+{
+  "format": 1,
+  "note": "Defaults: spawn, tp/teleport, rtp, tpa, tphere, tpaccept, skyblock home, home. Other commands default off. Saved toggles override initial defaults.",
+  "enabledCommands": [
+    "home",
+    "rtp",
+    "skyblock home",
+    "spawn",
+    "teleport",
+    "tpa",
+    "tpaccept",
+    "tphere"
+  ],
+  "observedCommands": []
+}

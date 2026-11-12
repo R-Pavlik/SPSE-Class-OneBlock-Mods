@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "values": {
+    "discordFormat": "<dark_aqua>[Discord] <yellow>{name}: <white>{message}",
+    "minecraftToDiscord": "true",
+    "minecraftFormat": "**{name}**: {message}",
+    "joinLeaveMessages": "false",
+    "botToken": "",
+    "commandPermissionLevel": "2",
+    "leaveFormat": "***[Disconnected]** {name}*",
+    "commandChannelId": "",
+    "pollSeconds": "2",
+    "maximumMessageLength": "500",
+    "crossServerChat": "true",
+    "enabled": "false",
+    "crossServerFormat": "<dark_aqua>{server} <yellow>{name}: <white>{message}",
+    "chatChannelId": "",
+    "messageColour": "white",
+    "commandsEnabled": "false",
+    "commandPrefix": "!mc",
+    "allowedCommands": "list",
+    "joinFormat": "***[Connected]** {name}*",
+    "commandCooldownSeconds": "3",
+    "discordToMinecraft": "true",
+    "commandRoleIds": "",
+    "serverPrefix": "[Minecraft]"
+  }
+}

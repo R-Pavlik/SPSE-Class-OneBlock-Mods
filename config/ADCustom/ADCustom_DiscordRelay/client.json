@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "values": {
+    "showCrossServerChat": "true",
+    "showDiscordChat": "true",
+    "messageColour": "white",
+    "playSound": "false",
+    "useServerStyle": "true",
+    "discordFormat": "<dark_aqua>[Discord] <yellow>{name}: <white>{message}",
+    "crossServerFormat": "<dark_aqua>{server} <yellow>{name}: <white>{message}"
+  }
+}
